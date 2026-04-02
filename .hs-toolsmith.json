@@ -1,0 +1,15 @@
+{
+  "hsToolsmith": true,
+  "title": "kafka-spring-contract-test",
+  "pitch": "Contract-test Kafka producers/consumers with schema validation and Spring Boot test helpers.",
+  "language": "python",
+  "category": "Testing",
+  "keyFeatures": [
+    "Schema-driven message validation (JSON Schema/Avro via adapters)",
+    "JUnit-friendly fixtures for embedded Kafka and golden messages",
+    "Producer/consumer compatibility checks across versions",
+    "Failure diffs that pinpoint breaking field changes",
+    "CLI to run contract suites in pipelines"
+  ],
+  "targetUsers": "Microservice developers who use Kafka and want repeatable consumer/producer compatibility tests in CI."
+}
